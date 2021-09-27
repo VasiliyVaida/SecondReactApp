@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,SAAS;AAKT,UAAU;AAQV,eAAe",
+    "sources": [
+        "../../src/UI/Select/Select.scss",
+        "../../src/styles/constants.scss",
+        "../../src/styles/mixins.scss"
+    ],
+    "names": [],
+    "file": "Select.css"
+}
