@@ -1,0 +1,98 @@
+@import '../styles/constants.scss';
+@import '../styles/mixins.scss';
+
+.footer__container {
+  width: 86.11%;
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  border-top: 1px solid #d8d8d8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__contacts {
+  width: 20.8%;
+  height: 237px;
+  @include flex-column;
+  justify-content: space-between;
+}
+
+.footer-contacts__title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: $black;
+}
+
+.footer-contacts__point {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: $grey;
+}
+
+.footer-contacts__location::before {
+  content: url(../img/footer/location-point.png);
+  margin-right: 10px;
+}
+
+.footer-contacts__phoneNum::before {
+  content: url(../img/footer/phone.png);
+  margin-right: 10px;
+}
+
+.footer__menu {
+  display: flex;
+  width: 43.23%;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer__getMail {
+  //   width: 23.55%;
+  height: 90px;
+  @include flex-column;
+  justify-content: space-between;
+}
+
+.footer__getMail-title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: $black;
+}
+
+.footer-getMail__input-conatiner {
+  display: flex;
+}
+
+.footer-getMail__input {
+  background-color: #f4f5f7;
+  padding: 10px 60px 10px 10px;
+  margin-right: 5px;
+  border: none;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #828282;
+}
+
+.footer-getMail__input-btn {
+  width: 44px;
+  height: 45px;
+  border: none;
+  background-color: #e89f71;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

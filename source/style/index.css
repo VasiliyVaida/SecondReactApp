@@ -1,7 +1,14 @@
+/*Fonts*/
+/*Colors*/
+/*Media-sizes*/
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+.app {
+  max-width: 1920px;
 }
 /*# sourceMappingURL=index.css.map */

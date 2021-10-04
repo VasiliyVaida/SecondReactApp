@@ -1,0 +1,73 @@
+@import '../styles/constants.scss';
+@import '../styles/mixins.scss';
+
+.promo {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  background: linear-gradient(to right, #f9f1e6 67%, #fcf8f3 33%);
+  overflow: hidden;
+}
+
+.promo-interiors {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo-container {
+  width: 86.11%;
+  margin: 0 auto;
+}
+
+.promo__main-card {
+  padding: 60px 0;
+  width: 34.31%;
+  position: absolute;
+  bottom: 80px;
+  left: 100px;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(31px);
+}
+
+.promo__mainCard-wrapper {
+  width: 100%;
+  @include flex-column;
+  align-items: center;
+}
+
+.promo__mainCard-title {
+  max-width: 374px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 120%;
+  color: $black;
+}
+
+.promo-mainCard-text {
+  padding-top: 16px;
+  padding-bottom: 48px;
+  max-width: 357px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: $grey;
+}
+
+.promo__mainCard-btn {
+  border: none;
+  padding: 24px 140px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: $white;
+  cursor: pointer;
+  background-color: #e89f71;
+}

@@ -1,0 +1,39 @@
+@import '../../styles/constants.scss';
+@import '../../styles/mixins.scss';
+
+.footer-menu__item-points_5 {
+  height: 229px;
+}
+
+.footer-menu__item-points_4 {
+  height: 189px;
+}
+
+.footer-menu__item-points_3 {
+  height: 149px;
+}
+
+.footer-menu__item-points {
+  list-style-type: none;
+  @include flex-column;
+  justify-content: space-between;
+}
+
+.footer-menu__item-title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: $black;
+}
+
+.footer-menu__item-pointLink {
+  text-decoration: none;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: $grey;
+}

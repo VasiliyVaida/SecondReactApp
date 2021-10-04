@@ -1,2 +1,8 @@
 @import '../../styles/constants.scss';
 @import '../../styles//mixins.scss';
+
+.header-nav {
+  width: 31.79%;
+  display: flex;
+  justify-content: space-between;
+}

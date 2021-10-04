@@ -1,0 +1,21 @@
+.promo {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, color-stop(67%, #f9f1e6), color-stop(33%, #fcf8f3));
+  background: linear-gradient(to right, #f9f1e6 67%, #fcf8f3 33%);
+}
+
+.promo-interiors {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.promo-container {
+  width: 86.11%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=Promo.css.map */

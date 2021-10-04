@@ -1,2 +1,70 @@
 @import '../../styles/constants.scss';
 @import '../../styles//mixins.scss';
+
+.header-nav__nav-item-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.header-nav__item-dropbtn {
+  padding: 0;
+  border: none;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+  background: transparent;
+  color: $black;
+}
+
+.header-nav__item-dropbtn:hover,
+.header-nav__item-dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.header-nav__item-dropbtn::after {
+  content: url(../../img/header/header__nav-arrow.png);
+  padding-left: 12px;
+}
+
+.header-nav__item-link {
+  padding: 0;
+  border: none;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+  background: transparent;
+  color: $black;
+  text-decoration: none;
+}
+
+.header-nav__nav-item {
+  position: relative;
+  display: inline-block;
+}
+
+.header-nav__dropbtn-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.header-nav__dropbtn-item {
+  color: $black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.header-nav__dropbtn-item:hover {
+  background-color: #ddd;
+}

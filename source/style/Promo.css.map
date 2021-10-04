@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,mDAAmD;CAChE;;AAED,AAAA,gBAAgB,CAAC;EACf,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAC/B;;AAED,AAAA,gBAAgB,CAAC;EACf,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;CACf",
+    "sources": [
+        "../../src/components/Promo.scss"
+    ],
+    "names": [],
+    "file": "Promo.css"
+}

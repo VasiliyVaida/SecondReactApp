@@ -1,0 +1,7 @@
+@import '../../styles/constants.scss';
+@import '../../styles/mixins.scss';
+
+.advantages__list {
+  @include flex-row;
+  justify-content: space-between;
+}

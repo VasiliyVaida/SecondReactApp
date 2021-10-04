@@ -1,0 +1,30 @@
+@import '../styles/constants.scss';
+@import '../styles/mixins.scss';
+
+.tips {
+  padding-top: 44px;
+  padding-bottom: 114px;
+}
+
+.tips__container {
+  width: 86.11%;
+  margin: 0 auto;
+  @include flex-column;
+  align-items: center;
+}
+
+.tips__title {
+  padding-bottom: 32px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+  color: $black;
+}
+
+.tip__cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

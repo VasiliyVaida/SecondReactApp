@@ -1,0 +1,29 @@
+@import '../../styles/constants.scss';
+@import '../../styles//mixins.scss';
+
+.header__searchbar {
+  position: relative;
+}
+
+.header__searchbar-btn {
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.header__searchbar-field {
+  font-family: Gilroy;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: $black;
+  padding: 12px 261px 12px 44px;
+}

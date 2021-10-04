@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "ACAA,SAAS;AAKT,UAAU;AAQV,eAAe",
+    "mappings": "ACAA,SAAS;AAKT,UAAU;AAQV,eAAe;ADVf,AAAA,WAAW,CAAC;EACV,KAAK,EAAE,MAAM;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAC/B",
     "sources": [
         "../../src/UI/Nav/Nav.scss",
         "../../src/styles/constants.scss",

@@ -1,0 +1,40 @@
+@import '../styles/constants.scss';
+@import '../styles/mixins.scss';
+
+.products {
+  padding-bottom: 44px;
+}
+.products__container {
+  width: 86.11%;
+  margin: 0 auto;
+  @include flex-column;
+  align-items: center;
+}
+
+.products__title {
+  margin-bottom: 32px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+  color: $black;
+}
+
+.products__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.products__btn {
+  border: 1px solid #e89f71;
+  padding: 12px 82px;
+  background: transparent;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #e89f71;
+}

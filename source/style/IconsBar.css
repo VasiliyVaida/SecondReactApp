@@ -1,0 +1,20 @@
+/*Fonts*/
+/*Colors*/
+/*Media-sizes*/
+.header__icons-btns {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__icons-btn {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+/*# sourceMappingURL=IconsBar.css.map */

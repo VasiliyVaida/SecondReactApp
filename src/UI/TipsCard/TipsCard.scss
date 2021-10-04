@@ -1,0 +1,31 @@
+@import '../../styles/constants.scss';
+@import '../../styles/mixins.scss';
+
+.tips__card {
+  max-width: 391px;
+}
+
+.tips-card__text-wrapper {
+  width: 86%;
+  margin: 0 auto;
+}
+
+.tips__card-title {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: $black;
+}
+
+.tips__card-date {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: $grey;
+}

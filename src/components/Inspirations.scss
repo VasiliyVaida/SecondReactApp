@@ -1,0 +1,96 @@
+@import '../styles/mixins.scss';
+@import '../styles/constants.scss';
+
+.inspirations {
+  background-color: #fcf8f3;
+  padding: 44px 0;
+}
+
+.inspirations__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 6.94%;
+  overflow: visible;
+}
+
+.inspirations__card {
+  @include flex-column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 378px;
+}
+
+.inspirtions__title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+  color: $black;
+}
+
+.inspirations__descr {
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: $black;
+}
+
+.inspirations__btn {
+  padding: 12px 40px;
+  background-color: #f89f71;
+  font-family: Gilroy;
+  cursor: pointer;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: $white;
+  cursor: pointer;
+}
+
+.inspirations_pictures {
+  display: flex;
+  justify-content: space-between;
+  width: 63.9%;
+}
+
+.inspirations__picture-wrapper {
+  position: relative;
+}
+
+.inspirations__picture-card {
+  background-color: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(3px);
+  width: 53.71%;
+  height: 130px;
+  position: absolute;
+  @include flex-column;
+  justify-content: center;
+  top: 428px;
+  left: 24px;
+}
+
+.inspirations-picture__card-product {
+  margin-left: 32px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.inspirations-picture__card-productName {
+  margin-left: 32px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+}

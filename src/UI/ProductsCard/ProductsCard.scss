@@ -1,0 +1,81 @@
+@import '../../styles/constants.scss';
+@import '../../styles/mixins.scss';
+
+.products__card {
+  background-color: #f4f5f7;
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.products__card-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: $white;
+}
+
+.products__card-info {
+  margin-top: 16px;
+  margin-bottom: 30px;
+  margin-left: 16px;
+}
+
+.products__card-title {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  color: $black;
+}
+
+.product__card-descr {
+  padding: 8px 0;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: $grey;
+}
+
+.products__card-price {
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: $black;
+  display: flex;
+  align-items: center;
+}
+
+.products__card-price_old {
+  padding-left: 16px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: line-through;
+  color: $grey;
+}
+
+.products__card-label_sale {
+  background-color: #e97171;
+}
+
+.products__card-label_new {
+  background-color: #2ec1ac;
+}
